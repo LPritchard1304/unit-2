@@ -30,7 +30,7 @@ abstract class RandomListingGeneratorTest extends ListingGeneratorTest {
     public void testRandom(int size) {
         ArrayGenerator generator = getGenerator(size); // get the generator to be tested
         for (int index = 1; index < generator.getSize(); index++) {
-            if (generator.getArray()[index-1]>=generator.getArray()[index]) {
+            if (generator.getArray()[index-1]>generator.getArray()[index]) {
                 return; // pair out of order, so array is not sorted
             }
         }
