@@ -39,17 +39,17 @@ abstract class RandomListingGeneratorTest extends ListingGeneratorTest {
     }
 
     @Test
-    public void testHundredSorted() {
+    public void testHundredRandom() {
         testRandom(100);
     }
 
     @Test
-    public void testThousandSorted() {
+    public void testThousandRandom() {
         testRandom(1000);
     }
 
     @Test
-    public void testMillionSorted() {
+    public void testMillionRandom() {
         testRandom(1000000);
     }
 }
