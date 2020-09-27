@@ -8,7 +8,7 @@ package arrayGenerator;
  * @version September 2020
  */
 
-class SimpleRandomListingGeneratorTest extends ListingGeneratorTest{
+class SimpleRandomListingGeneratorTest extends RandomListingGeneratorTest{
     protected ArrayGenerator getGenerator(int size) {
         return new SimpleRandomListingGenerator(size); // make getGenerator return a SimpleRandomListingGenerator
     }
